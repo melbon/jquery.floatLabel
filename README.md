@@ -5,6 +5,10 @@ The jquery.floatLabel floats the label up above the input after the user focuses
 <script src="jquery.min.js"></script>
 <script src="../jquery.floatLabel.min.js"></script>
 ```
+or 
+```javascript
+bower install floatlabel
+```
 ## Usage
 ```javascript
 $(":input").floatLabel();
