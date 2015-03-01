@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title></title>
+    <link href="styles.css" rel="stylesheet"/>
+</head>
+<body>
+
+<form id="wrapper">
+    <h1>Contact us</h1>
+    <div>
+        <label></label>
+        <input id="fname" type="text" placeholder="First Name" required="required" />
+    </div>
+    <div>
+        <label></label>
+        <input id="lname" type="text" placeholder="Last Name" required="required" />
+    </div>
+    <div>
+        <label></label>
+        <textarea id="area" placeholder="Description" required="required"></textarea>
+    </div>
+    <input type="submit" value="Send" />
+</form>
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="../jquery.floatLabel.js"></script>
+<script>
+    $(":input").floatLabel();
+</script>
+</body>
+</html>
