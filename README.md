@@ -10,11 +10,11 @@ The jquery.floatLabel floats the label up above the input after the user focuses
 $(":input").floatLabel();
 ```
 ## Demo
-<a href="http://codepen.io/mel/pen/XJYyxW" target="_blank">http://codepen.io/mel/pen/XJYyxW</a>
+<a href="http://codepen.io/mel/pen/XJYyxW" target="_blank">codepen.io/mel/pen/XJYyxW</a>
 ## License
 February 2015 <br />
 floatLabel 1.0.0 <br />
 @author Mario Vidov <br />
-@url <a href="http://vidov.it" target="_blank">http://vidov.it</a> <br />
+@url <a href="http://vidov.it" target="_blank">www.vidov.it</a> <br />
 @twitter  <a href="http://twitter.com/MarioVidov" target="_blank">MarioVidov</a> <br />
-GPL license
+MIT license
