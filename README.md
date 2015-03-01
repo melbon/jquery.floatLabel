@@ -14,7 +14,7 @@ bower install floatlabel
 $(":input").floatLabel();
 ```
 ## Demo
-<a href="http://codepen.io/mel/pen/XJYyxW" target="_blank">codepen.io/mel/pen/XJYyxW</a>
+<a href="http://codepen.io/mel/full/XJYyxW" target="_blank">codepen.io/mel/full/XJYyxW</a>
 ## License
 February 2015 <br />
 floatLabel 1.0.0 <br />
