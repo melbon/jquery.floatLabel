@@ -12,8 +12,8 @@ $(":input").floatLabel();
 ## Demo
 
 ## License
-August 2014 <br />
-colorPalette 1.1.0 <br />
+February 2015 <br />
+floatLabel 1.0.0 <br />
 @author Mario Vidov <br />
 @url <a href="http://vidov.it" target="_blank">http://vidov.it</a> <br />
 @twitter  <a href="http://twitter.com/MarioVidov" target="_blank">MarioVidov</a> <br />
