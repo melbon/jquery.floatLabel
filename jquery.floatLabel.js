@@ -13,9 +13,20 @@ $.fn.floatLabel = function(options) {
     var isFocused = "active",
         isVisible = "visible";
 
+    this.init = function() {
+        var inputs = $(this.selector);
+        $.each(inputs, function(i, el) {
+            var hasLabel = $(el).parent().find("label").length;
+            if (!hasLabel) {
+                $(el).parent().prepend("<label />");
+            }
+        });
+    };
+
     $(this.selector).bind("isEmpty",function(){
         var label = $(this).prev("label");
-        label.text(this.placeholder);
+        var name = $(this).attr("placeholder") || $(this).attr("name") || $(this).attr("id") || "";
+        label.text(name);
         label.attr({
             for: this.id
         });
@@ -31,4 +42,6 @@ $.fn.floatLabel = function(options) {
     }).on("blur",function(){
         $(this).prev("label").removeClass(isFocused);
     });
-}
+
+    this.init();
+};

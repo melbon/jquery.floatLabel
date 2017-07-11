@@ -1,7 +1,7 @@
 {
   "name": "jquery.floatLabel",
   "main": "jquery.floatLabel.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The jquery.floatLabel floats the label up above the input after the user focuses on field or enters a value.",
   "keywords": [
     "floatlabel",
