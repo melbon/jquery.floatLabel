@@ -1,6 +1,6 @@
 /*
  * February 2015
- * floatLabel 1.0.0
+ * floatLabel 1.0.1
  * @author Mario Vidov
  * @url http://vidov.it
  * @twitter MarioVidov
